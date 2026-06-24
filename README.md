@@ -83,10 +83,6 @@ Batch Size: 32
 Patience: 12 epochs (Early Stopping) 
 
 
-# Deepfake Audio Detection 
-
-This repository contains the training pipeline and model architecture for a 4-class Deepfake Audio Detection task. The system utilizes a dual-branch fusion architecture that simultaneously processes raw waveforms and spectrograms to capture both temporal acoustic features and frequency-domain representations.
-
 ## System Architecture
 
 The model combines a pre-trained Audio Transformer (`WavLM-base-plus`) and a Convolutional Neural Network (`ResNet-50`) to extract and fuse multimodal audio features.
