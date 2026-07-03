@@ -54,23 +54,6 @@ The model utilized a Cosine Annealing Learning Rate scheduler and reached near-p
 
 **Best Validation F1-Score: 0.9912**
 
-**Installation & Usage**
-
-Clone the Repository:
-
-Bash
-git clone https://github.com/SoumabrataBhowmik/Multi-Modal-Deepfake-Audio-Detection-System.git
-
-cd Multi-Modal-Deepfake-Audio-Detection-System
-
-Install Dependencies:
-
-Bash
-pip install torch torchvision torchaudio transformers librosa scikit-learn pandas tqdm
-
-Run Training:
-
-The project includes a run_training function that handles precomputation, data splitting, and the training loop automatically.
 
 **Training Configuration**
 
